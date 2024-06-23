@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <ul class="left-nav">
+            <li><img src="logo.png" alt=""></li>
+            <li>Spotify</li>
+            <li class="gif"> <img src="playing.gif"  id="gif"alt=""></li>  
+        </ul>
+        <ul class="right-nav">
+            <button class="btn1">Sign in </button>
+            <button class="btn1">Log in </button>
+        </ul>
+    </nav>
+    <main>
+        <div id="main">
+            <div class="songs">
+                <div class="song1">
+                    <div > <img src="covers/1.jpg" alt=""> </div>
+                    <div class="songname">Let me Love you</div>
+                    <div class="iconbutton"> <span class="duration"></span>  <i id="1" class="fa fa-2x fa-play-circle playsong" ></i>  </div>
+                </div>
+                <div class="song1">
+                    <div > <img src="covers/2.jpg" alt=""> </div>
+                    <div class="songname">Lover</div>
+                    <div class="iconbutton"><span class="duration"></span> <i id="2"class="fa fa-2x fa-play-circle playsong" ></i>  </div>
+                </div>
+                <div class="song1">
+                    <div > <img src="covers/3.jpg" alt=""> </div>
+                    <div class="songname">Blank Space</div>
+                    <div class="iconbutton"><span class="duration"></span><i id="3"class="fa fa-2x fa-play-circle playsong" ></i>  </div>
+                </div>
+                <div class="song1">
+                    <div > <img src="covers/4.jpg" alt=""> </div>
+                    <div class="songname">Style</div>
+                    <div class="iconbutton"><span class="duration"></span> <i id="4"class="fa fa-2x fa-play-circle playsong" ></i>  </div>
+                </div>
+                <div class="song1">
+                    <div > <img src="covers/5.jpg" alt=""> </div>
+                    <div class="songname">Baby</div>
+                    <div class="iconbutton"><span class="duration"></span> <i id="5" class="fa fa-2x fa-play-circle playsong" ></i>  </div>
+                </div>
+                <div class="song1">
+                    <div > <img src="covers/6.jpg" alt=""> </div>
+                    <div class="songname">Let me Love you</div>
+                    <div class="iconbutton"><span class="duration"></span> <i id="6" class="fa fa-2x fa-play-circle  playsong" ></i>  </div>
+                </div>
+
+                <div class="pgBar">
+                    <input type="range" name="range" min="0" max="100" value="0" id="pgBar">
+                    <span id="duration"></span> 
+                </div>
+                <div class="icons"> 
+                    <i class="fa fa-2x fa-backward" id="back" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-3x fa-play-circle" id="masterPlay"></i> 
+                    <br>
+                
+                    <i class="fa fa-2x fa-forward "id ="forward" aria-hidden="true"></i>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</html>
